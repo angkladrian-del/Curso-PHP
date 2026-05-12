@@ -27,3 +27,13 @@ function buclefor() {
 }
 buclefor();
 echo "<br><br>";
+/* */
+function adicion($num1, $num2){
+    $total = $num1 + $num2;
+    echo "El resultado de la suma es: " . $total;
+}
+
+$num1 = 15;
+$num2 = 20;
+
+adicion($num1, $num2);
